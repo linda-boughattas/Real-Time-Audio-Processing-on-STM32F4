@@ -18,6 +18,28 @@ This project implements **real-time audio signal processing** on the STM32F4 Dis
 
 ---
 
+## How It Works
+1. **Audio Acquisition**:
+   - PDM microphone captures audio.
+   - DMA transfers data to memory.
+2. **PDM to PCM Conversion**:
+   - The `PDM2PCM` library converts PDM data into PCM format.
+3. **Audio Playback**:
+   - The CS43L22 codec handles playback over I2S.
+
+---
+
+## Getting Started
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-repo-name.git
+   ```
+2. Open the project in **Keil µVision**.
+3. Flash the code onto the STM32F4 Discovery board.
+4. Connect headphones or use the built-in speakers to listen to the processed audio.
+
+---
+
 ## Resources & References
 Below are the resources that helped in building this project, organized by type:
 
@@ -36,17 +58,6 @@ Below are the resources that helped in building this project, organized by type:
 ### Repositories
 1. [STM32 Tutorials - I2S Audio Codec (CS43L22)](https://github.com/MYaqoobEmbedded/STM32-Tutorials/tree/master/Tutorial%2028%20-%20I2S%20Audio%20Codec%20-%20CS43L22)
 2. [PDM Microphone on STM32](https://github.com/YetAnotherElectronicsChannel/STM32_PDM_Microphone/tree/master)
-
----
-
-## How It Works
-1. **Audio Acquisition**:
-   - PDM microphone captures audio.
-   - DMA transfers data to memory.
-2. **PDM to PCM Conversion**:
-   - The `PDM2PCM` library converts PDM data into PCM format.
-3. **Audio Playback**:
-   - The CS43L22 codec handles playback over I2S.
 
 ---
 
