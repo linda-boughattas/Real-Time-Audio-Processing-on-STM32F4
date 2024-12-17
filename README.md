@@ -18,34 +18,25 @@ This project implements **real-time audio signal processing** on the STM32F4 Dis
 
 ---
 
-## Getting Started
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-repo-name.git
-   ```
-2. Open the project in **Keil µVision**.
-3. Flash the code onto the STM32F4 Discovery board.
-4. Connect headphones or use the built-in speakers to listen to the processed audio.
-
----
-
 ## Resources & References
+Below are the resources that helped in building this project, organized by type:
 
 ### Video Tutorials
 1. [I2S Audio Codec - CS43L22](https://www.youtube.com/watch?v=QIPQOnVablY)
-2. [PDM Microphones - Audio DSP On STM32](https://www.youtube.com/watch?v=JuXKeyFraF4)
+2. [PDM Microphones - Audio DSP On STM32 (16 Bit / 48 kHz)](https://www.youtube.com/watch?v=JuXKeyFraF4)
 3. [STM32 Microphone Audio Acquisition](https://www.youtube.com/watch?v=_YQSJJQUp-g&list=PLwqrqfRKpbeIxgnKq1_hTCULCaL7LBHmN&ab_channel=STMicroelectronics)
 
 ### Documentation & Datasheets
 1. [MB997: Schematic Prints for STM32F4Discovery](https://www.st.com/resource/en/schematic_pack/mb997-f407vgt6-b02_schematic.pdf)
 2. [CS43L22 Audio Codec Datasheet](https://datasheet.octopart.com/CS43L22-CNZ-Cirrus-Logic-datasheet-5397077.pdf)
-3. [AN5027: Interfacing PDM Digital Microphones using STM32 MCUs and MPUs](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbHFEak9aNXJRUHVlZnhqMVk1bXdacjVkNDdCQXxBQ3Jtc0ttajN3dTNjd0pQaHZTNGRuWmxESHFDbzAzejFwN2JyQkZoTU5tWG5fNnVuTkNZUDlCUUZ0eXdUMW1aYzNaNmpOZHZ4WDJJRkdlbVk0LS13MnlDM1JoVFlfaXpZSGhsSkFQbjRkcXRoOFA4eHRzRFZEQQ&q=http%3A%2F%2Fbit.ly%2FAN5027-AppNote&v=a-diRANswfw)
-4. [UM2372: STM32Cube PDM2PCM Software Library](https://github.com/user-attachments/files/18081861/um2372-stm32cube-pdm2pcm-software-library-for-the-stm32f4f7h7-series-stmicroelectronics.pdf)
-5. [stm32_pdm_mic_docu.pdf](https://github.com/YetAnotherElectronicsChannel/STM32_PDM_Microphone/blob/master/stm32_pdm_mic_docu.pdf)
+3. [AN5027: Interfacing PDM Digital Microphones using STM32 MCUs and MPUs](http://bit.ly/AN5027-AppNote)
+4. [UM2372: STM32Cube PDM2PCM Software Library](https://github.com/user-attachments/files/18081861/um2372-stm32cube-pdm2pcm-software-library-for-the-stm32f4f7h7series-stmicroelectronics.pdf)
+5. [STM32 PDM Mic Documentation (stm32_pdm_mic_docu.pdf)](https://github.com/YetAnotherElectronicsChannel/STM32_PDM_Microphone/blob/master/stm32_pdm_mic_docu.pdf)
 
 ### Repositories
 1. [STM32 Tutorials - I2S Audio Codec (CS43L22)](https://github.com/MYaqoobEmbedded/STM32-Tutorials/tree/master/Tutorial%2028%20-%20I2S%20Audio%20Codec%20-%20CS43L22)
 2. [PDM Microphone on STM32](https://github.com/YetAnotherElectronicsChannel/STM32_PDM_Microphone/tree/master)
+
 ---
 
 ## How It Works
@@ -61,3 +52,4 @@ This project implements **real-time audio signal processing** on the STM32F4 Dis
 
 ## License
 This project is licensed under the MIT License.
+
